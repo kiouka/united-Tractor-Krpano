@@ -1,0 +1,1097 @@
+﻿<krpano version="1.21" title="Virtual Tour">
+
+	<include url="skin/vtourskin.xml" />
+
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+	
+
+	
+	<scene name="scene_1-Jembatan" title="1-Jembatan" onstart="" thumburl="panos/1-Jembatan.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/1-Jembatan.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/1-Jembatan.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-1.088" atv="24.597" linkedscene="scene_2-jembatan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_10-CENMA" title="10-CENMA" onstart="" thumburl="panos/10-CENMA.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/10-CENMA.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/10-CENMA.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="90.107" atv="19.741" linkedscene="scene_9-tiga_binian" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-90.430" atv="23.152" linkedscene="scene_11_pintu_masuk_booth_anakan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_11_PINTU_MASUK_BOOTH_ANAKAN" title="11 PINTU MASUK BOOTH ANAKAN" onstart="" thumburl="panos/11_PINTU_MASUK_BOOTH_ANAKAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/11_PINTU_MASUK_BOOTH_ANAKAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/11_PINTU_MASUK_BOOTH_ANAKAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-90.415" atv="25.897" linkedscene="scene_12_narisa_nusantara" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="93.488" atv="23.271" linkedscene="scene_10-cenma" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-0.634" atv="36.914" linkedscene="scene_17_start" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_12_NARISA_NUSANTARA" title="12 NARISA NUSANTARA" onstart="" thumburl="panos/12_NARISA_NUSANTARA.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/12_NARISA_NUSANTARA.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/12_NARISA_NUSANTARA.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="88.926" atv="21.666" linkedscene="scene_11_pintu_masuk_booth_anakan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-90.168" atv="21.863" linkedscene="scene_13_herbo" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_13_HERBO" title="13 HERBO" onstart="" thumburl="panos/13_HERBO.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/13_HERBO.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/13_HERBO.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="89.663" atv="25.398" linkedscene="scene_12_narisa_nusantara" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-90.940" atv="21.757" linkedscene="scene_14_made" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_14_MADE" title="14 MADE" onstart="" thumburl="panos/14_MADE.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/14_MADE.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/14_MADE.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="90.628" atv="26.153" linkedscene="scene_13_herbo" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-89.949" atv="23.667" linkedscene="scene_15_qorychan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_15_QORYCHAN" title="15 QORYCHAN" onstart="" thumburl="panos/15_QORYCHAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/15_QORYCHAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/15_QORYCHAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="90.098" atv="27.287" linkedscene="scene_14_made" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="124.182" atv="17.936" linkedscene="scene_16_resepsionis_kiri" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_16_RESEPSIONIS_KIRI" title="16 RESEPSIONIS KIRI" onstart="" thumburl="panos/16_RESEPSIONIS_KIRI.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/16_RESEPSIONIS_KIRI.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/16_RESEPSIONIS_KIRI.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-10.754" atv="20.719" linkedscene="scene_15_qorychan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="157.582" atv="23.588" linkedscene="scene_5-resepsionis" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_17_START" title="17 START" onstart="" thumburl="panos/17_START.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/17_START.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/17_START.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="41.507" atv="19.673" linkedscene="scene_18_pama_dan_ute" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="175.311" atv="18.594" linkedscene="scene_11_pintu_masuk_booth_anakan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-40.675" atv="24.287" linkedscene="scene_24_ut_dan_agincourt" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_18_PAMA_DAN_UTE" title="18 PAMA DAN UTE" onstart="" thumburl="panos/18_PAMA_DAN_UTE.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/18_PAMA_DAN_UTE.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/18_PAMA_DAN_UTE.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.249" atv="24.774" linkedscene="scene_19_persimpangan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="178.217" atv="22.402" linkedscene="scene_17_start" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_19_PERSIMPANGAN" title="19 PERSIMPANGAN" onstart="" thumburl="panos/19_PERSIMPANGAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/19_PERSIMPANGAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/19_PERSIMPANGAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="178.619" atv="32.769" linkedscene="scene_18_pama_dan_ute" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-87.056" atv="26.396" linkedscene="scene_20_ute_dan_reman" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="23.195" atv="30.019" linkedscene="scene_25_jalan_menuju_ut_smart" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_2-Jembatan" title="2-Jembatan" onstart="" thumburl="panos/2-Jembatan.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/2-Jembatan.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/2-Jembatan.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-1.424" atv="25.341" linkedscene="scene_3-jembatan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="179.747" atv="30.069" linkedscene="scene_1-jembatan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_20_UTE_DAN_REMAN" title="20 UTE DAN REMAN" onstart="" thumburl="panos/20_UTE_DAN_REMAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/20_UTE_DAN_REMAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20_UTE_DAN_REMAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="174.148" atv="25.813" linkedscene="scene_19_persimpangan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-2.951" atv="29.654" linkedscene="scene_21_persimpangan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_21_PERSIMPANGAN" title="21 PERSIMPANGAN" onstart="" thumburl="panos/21_PERSIMPANGAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/21_PERSIMPANGAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/21_PERSIMPANGAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-92.161" atv="29.097" linkedscene="scene_20_ute_dan_reman" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-4.203" atv="31.508" linkedscene="scene_22_ute_dan_patria" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_22_UTE_DAN_PATRIA" title="22 UTE DAN PATRIA" onstart="" thumburl="panos/22_UTE_DAN_PATRIA.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/22_UTE_DAN_PATRIA.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/22_UTE_DAN_PATRIA.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-178.601" atv="26.460" linkedscene="scene_21_persimpangan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-2.069" atv="26.871" linkedscene="scene_23_persimpangan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_23_PERSIMPANGAN" title="23 PERSIMPANGAN" onstart="" thumburl="panos/23_PERSIMPANGAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/23_PERSIMPANGAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/23_PERSIMPANGAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-99.435" atv="26.271" linkedscene="scene_22_ute_dan_patria" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-1.331" atv="29.572" linkedscene="scene_24_ut_dan_agincourt" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_24_UT_DAN_AGINCOURT" title="24 UT DAN AGINCOURT" onstart="" thumburl="panos/24_UT_DAN_AGINCOURT.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/24_UT_DAN_AGINCOURT.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/24_UT_DAN_AGINCOURT.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="2.479" atv="25.364" linkedscene="scene_17_start" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-168.642" atv="29.855" linkedscene="scene_23_persimpangan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_25_JALAN_MENUJU_UT_SMART" title="25 JALAN MENUJU UT SMART" onstart="" thumburl="panos/25_JALAN_MENUJU_UT_SMART.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/25_JALAN_MENUJU_UT_SMART.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/25_JALAN_MENUJU_UT_SMART.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-134.525" atv="28.670" linkedscene="scene_19_persimpangan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="9.089" atv="26.147" linkedscene="scene_26_ut_smart" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_26_UT_SMART" title="26 UT SMART" onstart="" thumburl="panos/26_UT_SMART.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/26_UT_SMART.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/26_UT_SMART.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="125.799" atv="31.419" linkedscene="scene_25_jalan_menuju_ut_smart" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-86.402" atv="21.451" linkedscene="scene_27_assesment_center" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_27_ASSESMENT_CENTER" title="27 ASSESMENT CENTER" onstart="" thumburl="panos/27_ASSESMENT_CENTER.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/27_ASSESMENT_CENTER.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/27_ASSESMENT_CENTER.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="89.762" atv="28.324" linkedscene="scene_26_ut_smart" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-123.024" atv="26.828" linkedscene="scene_28_sahabat_selaras" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_28_SAHABAT_SELARAS" title="28 SAHABAT SELARAS" onstart="" thumburl="panos/28_SAHABAT_SELARAS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/28_SAHABAT_SELARAS.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/28_SAHABAT_SELARAS.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="97.511" atv="31.413" linkedscene="scene_27_assesment_center" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-86.737" atv="29.475" linkedscene="scene_29_pintu_masuk_cabang_site" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_29_PINTU_MASUK_CABANG_SITE" title="29 PINTU MASUK CABANG SITE" onstart="" thumburl="panos/29_PINTU_MASUK_CABANG_SITE.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/29_PINTU_MASUK_CABANG_SITE.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/29_PINTU_MASUK_CABANG_SITE.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="116.234" atv="21.041" linkedscene="scene_28_sahabat_selaras" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-0.545" atv="30.622" linkedscene="scene_30_site_titik" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_3-Jembatan" title="3-Jembatan" onstart="" thumburl="panos/3-Jembatan.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/3-Jembatan.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/3-Jembatan.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.457" atv="25.425" linkedscene="scene_4-jembatan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-179.545" atv="28.704" linkedscene="scene_2-jembatan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_30_SITE_TITIK" title="30 SITE TITIK" onstart="" thumburl="panos/30_SITE_TITIK.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/30_SITE_TITIK.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/30_SITE_TITIK.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="178.217" atv="19.211" linkedscene="scene_29_pintu_masuk_cabang_site" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.066" atv="16.930" linkedscene="scene_31_site_titik_2" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_31_SITE_TITIK_2" title="31 SITE TITIK 2" onstart="" thumburl="panos/31_SITE_TITIK_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/31_SITE_TITIK_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/31_SITE_TITIK_2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="1.034" atv="17.143" linkedscene="scene_32_titik_site_3" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="179.738" atv="19.216" linkedscene="scene_30_site_titik" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_32_TITIK_SITE_3" title="32 TITIK SITE 3" onstart="" thumburl="panos/32_TITIK_SITE_3.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/32_TITIK_SITE_3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/32_TITIK_SITE_3.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="178.068" atv="26.387" linkedscene="scene_31_site_titik_2" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="13.966" atv="19.224" linkedscene="scene_33_titik_site_4" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_33_TITIK_SITE_4" title="33 TITIK SITE 4" onstart="" thumburl="panos/33_TITIK_SITE_4.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/33_TITIK_SITE_4.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/33_TITIK_SITE_4.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="159.130" atv="20.583" linkedscene="scene_32_titik_site_3" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="5.208" atv="20.726" linkedscene="scene_34_titik_site_5" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_34_TITIK_SITE_5" title="34 TITIK SITE 5" onstart="" thumburl="panos/34_TITIK_SITE_5.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/34_TITIK_SITE_5.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/34_TITIK_SITE_5.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="176.539" atv="20.050" linkedscene="scene_33_titik_site_4" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="12.403" atv="18.434" linkedscene="scene_35_titik_site_6" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_35_TITIK_SITE_6" title="35 TITIK SITE 6" onstart="" thumburl="panos/35_TITIK_SITE_6.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/35_TITIK_SITE_6.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/35_TITIK_SITE_6.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="157.173" atv="21.979" linkedscene="scene_34_titik_site_5" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.000" atv="18.145" linkedscene="scene_36_titik_site_7" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_36_TITIK_SITE_7" title="36 TITIK SITE 7" onstart="" thumburl="panos/36_TITIK_SITE_7.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/36_TITIK_SITE_7.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/36_TITIK_SITE_7.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="179.930" atv="23.225" linkedscene="scene_35_titik_site_6" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-0.517" atv="20.479" linkedscene="scene_37_titik_site_8" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_37_TITIK_SITE_8" title="37 TITIK SITE 8" onstart="" thumburl="panos/37_TITIK_SITE_8.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/37_TITIK_SITE_8.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/37_TITIK_SITE_8.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="179.725" atv="21.791" linkedscene="scene_36_titik_site_7" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="51.996" atv="23.456" linkedscene="scene_38_ui" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_38_UI" title="38 UI" onstart="" thumburl="panos/38_UI.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/38_UI.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/38_UI.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="86.381" atv="15.562" linkedscene="scene_37_titik_site_8" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="172.777" atv="23.526" linkedscene="scene_39_unbraw" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-76.183" atv="21.126" linkedscene="scene_40_ugm" linkedscene_hoffset="0.0" use3dtransition="true" />
+
+	</scene>
+
+	<scene name="scene_39_UNBRAW" title="39 UNBRAW" onstart="" thumburl="panos/39_UNBRAW.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/39_UNBRAW.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/39_UNBRAW.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="152.927" atv="21.080" linkedscene="scene_40_ugm" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-156.140" atv="21.536" linkedscene="scene_38_ui" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-94.769" atv="18.890" linkedscene="scene_37_titik_site_8" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_4-Jembatan" title="4-Jembatan" onstart="" thumburl="panos/4-Jembatan.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/4-Jembatan.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/4-Jembatan.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.369" atv="22.839" linkedscene="scene_5-resepsionis" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-179.602" atv="20.846" linkedscene="scene_3-jembatan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_40_UGM" title="40 UGM" onstart="" thumburl="panos/40_UGM.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/40_UGM.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/40_UGM.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="114.028" atv="26.447" linkedscene="scene_38_ui" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-119.807" atv="25.162" linkedscene="scene_41_sgu" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_41_SGU" title="41 SGU" onstart="" thumburl="panos/41_SGU.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/41_SGU.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/41_SGU.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-90.718" atv="18.085" linkedscene="scene_42_binus" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="88.444" atv="23.524" linkedscene="scene_40_ugm" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_42_BINUS" title="42 BINUS" onstart="" thumburl="panos/42_BINUS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/42_BINUS.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/42_BINUS.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-66.061" atv="15.249" linkedscene="scene_43_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="105.606" atv="20.933" linkedscene="scene_41_sgu" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_43_PAMERAN_LUKISAN" title="43 PAMERAN LUKISAN" onstart="" thumburl="panos/43_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/43_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/43_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="4.925" atv="26.037" linkedscene="scene_44_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-164.066" atv="29.187" linkedscene="scene_42_binus" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_44_PAMERAN_LUKISAN" title="44 PAMERAN LUKISAN" onstart="" thumburl="panos/44_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/44_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/44_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="11.613" atv="23.277" linkedscene="scene_45_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-172.310" atv="30.466" linkedscene="scene_43_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_45_PAMERAN_LUKISAN" title="45 PAMERAN LUKISAN" onstart="" thumburl="panos/45_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/45_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/45_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-162.927" atv="33.189" linkedscene="scene_44_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.063" atv="35.827" linkedscene="scene_46_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_46_PAMERAN_LUKISAN" title="46 PAMERAN LUKISAN" onstart="" thumburl="panos/46_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/46_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/46_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-17.429" atv="24.194" linkedscene="scene_47_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-169.642" atv="34.030" linkedscene="scene_45_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_47_PAMERAN_LUKISAN" title="47 PAMERAN LUKISAN" onstart="" thumburl="panos/47_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/47_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/47_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-16.410" atv="30.038" linkedscene="scene_48_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-165.087" atv="41.060" linkedscene="scene_46_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_48_PAMERAN_LUKISAN" title="48 PAMERAN LUKISAN" onstart="" thumburl="panos/48_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/48_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/48_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-20.012" atv="28.356" linkedscene="scene_49_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-175.144" atv="31.396" linkedscene="scene_47_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_49_PAMERAN_LUKISAN" title="49 PAMERAN LUKISAN" onstart="" thumburl="panos/49_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/49_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/49_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-19.816" atv="27.409" linkedscene="scene_50_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-148.173" atv="36.609" linkedscene="scene_48_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_5-RESEPSIONIS" title="5-RESEPSIONIS" onstart="" thumburl="panos/5-RESEPSIONIS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/5-RESEPSIONIS.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/5-RESEPSIONIS.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="68.837" atv="17.176" linkedscene="scene_6-kanan_resepsionis" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-179.918" atv="15.937" linkedscene="scene_4-jembatan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-66.614" atv="16.945" linkedscene="scene_16_resepsionis_kiri" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_50_PAMERAN_LUKISAN" title="50 PAMERAN LUKISAN" onstart="" thumburl="panos/50_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/50_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/50_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="165.855" atv="20.435" linkedscene="scene_49_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-64.074" atv="20.420" linkedscene="scene_51_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="61.685" atv="20.859" linkedscene="scene_53_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_51_PAMERAN_LUKISAN" title="51 PAMERAN LUKISAN" onstart="" thumburl="panos/51_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/51_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/51_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="52.611" atv="27.365" linkedscene="scene_52_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="132.162" atv="28.652" linkedscene="scene_50_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_52_PAMERAN_LUKISAN" title="52 PAMERAN LUKISAN" onstart="" thumburl="panos/52_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/52_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/52_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="95.230" atv="27.244" linkedscene="scene_53_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-95.465" atv="21.453" linkedscene="scene_51_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-0.514" atv="32.726" linkedscene="scene_54_ruang_budaya" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_53_PAMERAN_LUKISAN" title="53 PAMERAN LUKISAN" onstart="" thumburl="panos/53_PAMERAN_LUKISAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/53_PAMERAN_LUKISAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/53_PAMERAN_LUKISAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-63.556" atv="25.825" linkedscene="scene_52_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-117.435" atv="25.824" linkedscene="scene_50_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_54_RUANG_BUDAYA" title="54 RUANG BUDAYA" onstart="" thumburl="panos/54_RUANG_BUDAYA.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/54_RUANG_BUDAYA.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/54_RUANG_BUDAYA.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="90.756" atv="7.423" linkedscene="scene_55_ruang_budaya" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-179.944" atv="16.555" linkedscene="scene_52_pameran_lukisan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_55_RUANG_BUDAYA" title="55 RUANG BUDAYA" onstart="" thumburl="panos/55_RUANG_BUDAYA.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/55_RUANG_BUDAYA.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/55_RUANG_BUDAYA.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="179.786" atv="26.036" linkedscene="scene_54_ruang_budaya" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-2.287" atv="23.612" linkedscene="scene_56_game" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_56_GAME" title="56 GAME" onstart="" thumburl="panos/56_GAME.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/56_GAME.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/56_GAME.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-89.826" atv="17.453" linkedscene="scene_55_ruang_budaya" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="89.936" atv="23.462" linkedscene="scene_57_game" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_57_GAME" title="57 GAME" onstart="" thumburl="panos/57_GAME.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/57_GAME.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/57_GAME.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-90.850" atv="19.169" linkedscene="scene_56_game" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="88.493" atv="20.864" linkedscene="scene_58_game" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_58_GAME" title="58 GAME" onstart="" thumburl="panos/58_GAME.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/58_GAME.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/58_GAME.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-88.487" atv="18.263" linkedscene="scene_57_game" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="87.788" atv="18.610" linkedscene="scene_59_game" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_59_GAME" title="59 GAME" onstart="" thumburl="panos/59_GAME.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/59_GAME.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/59_GAME.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-1.444" atv="22.290" linkedscene="scene_60_auditorium" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="90.586" atv="14.771" linkedscene="scene_58_game" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_6-KANAN_RESEPSIONIS" title="6-KANAN RESEPSIONIS" onstart="" thumburl="panos/6-KANAN_RESEPSIONIS.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/6-KANAN_RESEPSIONIS.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/6-KANAN_RESEPSIONIS.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-168.772" atv="21.691" linkedscene="scene_5-resepsionis" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="14.287" atv="22.758" linkedscene="scene_7-pakacil_sasirangan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_60_AUDITORIUM" title="60 AUDITORIUM" onstart="" thumburl="panos/60_AUDITORIUM.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/60_AUDITORIUM.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/60_AUDITORIUM.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="69.694" atv="28.660" linkedscene="scene_62_auditorium" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-72.884" atv="27.163" linkedscene="scene_61_auditorium" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_61_AUDITORIUM" title="61 AUDITORIUM" onstart="" thumburl="panos/61_AUDITORIUM.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/61_AUDITORIUM.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/61_AUDITORIUM.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.620" atv="29.138" linkedscene="scene_63_kuesioner" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-166.551" atv="20.610" linkedscene="scene_60_auditorium" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_62_AUDITORIUM" title="62 AUDITORIUM" onstart="" thumburl="panos/62_AUDITORIUM.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/62_AUDITORIUM.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/62_AUDITORIUM.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-23.434" atv="25.265" linkedscene="scene_60_auditorium" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="178.616" atv="22.736" linkedscene="scene_59_game" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_63_KUESIONER" title="63 KUESIONER" onstart="" thumburl="panos/63_KUESIONER.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/63_KUESIONER.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/63_KUESIONER.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="179.970" atv="33.469" linkedscene="scene_60_auditorium" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_7-PAKACIL_SASIRANGAN" title="7-PAKACIL SASIRANGAN" onstart="" thumburl="panos/7-PAKACIL_SASIRANGAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/7-PAKACIL_SASIRANGAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/7-PAKACIL_SASIRANGAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-89.848" atv="19.052" linkedscene="scene_8-gula_aren" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-121.672" atv="15.438" linkedscene="scene_6-kanan_resepsionis" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_8-GULA_AREN" title="8-GULA AREN" onstart="" thumburl="panos/8-GULA_AREN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/8-GULA_AREN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/8-GULA_AREN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="91.793" atv="21.743" linkedscene="scene_7-pakacil_sasirangan" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-89.992" atv="18.669" linkedscene="scene_9-tiga_binian" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+	<scene name="scene_9-TIGA_BINIAN" title="9-TIGA BINIAN" onstart="" thumburl="panos/9-TIGA_BINIAN.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/9-TIGA_BINIAN.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/9-TIGA_BINIAN.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1536" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="90.820" atv="24.142" linkedscene="scene_8-gula_aren" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-90.731" atv="19.961" linkedscene="scene_10-cenma" linkedscene_hoffset="0.0" use3dtransition="true" framecount="5"/>
+
+	</scene>
+
+
+</krpano>
